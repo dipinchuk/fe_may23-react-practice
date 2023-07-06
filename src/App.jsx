@@ -244,7 +244,7 @@ export const App = () => {
                           </td>
 
                           <td data-cy="ProductName">{product.name}</td>
-                          <td data-cy="ProductCategory">{`${product.category.icon}- ${product.category.title}`}</td>
+                          <td data-cy="ProductCategory">{`${product.category.icon} - ${product.category.title}`}</td>
 
                           <td
                             data-cy="ProductUser"
